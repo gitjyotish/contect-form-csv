@@ -1,9 +1,9 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-	include_once "PHPMailer/PHPMailer.php";
-	include_once "PHPMailer/Exception.php";
-	include_once "PHPMailer/SMTP.php";
+	include_once "PHPMailer.php";
+	include_once "Exception.php";
+	include_once "SMTP.php";
 $fname=$_POST['fname'];
 $lname=$_POST['lname'];
 $email=$_POST['email'];
